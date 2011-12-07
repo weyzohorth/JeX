@@ -1,0 +1,14 @@
+0 map_dimensions 800 50 50
+0 vitesse + 40
+0 loop_start oo
+0 loop_start 4
+10000 bloc rxmin 98 rxmax 98 rymin 2 rymax 2 rzmin 10 rzmax 100 ysmin -100 ysmax 100 zsmin -1000
+20000 bloc rxmin 2 rxmax 2 rymin 98 rymax 98 rzmin 10 rzmax 100 xsmin -100 xsmax 100 zsmin -1000
+20000 loop_end
+0 index_couleurs + 1
+0 loop_start 4
+10000 bloc rxmin 98 rxmax 98 rymin 2 rymax 2 rzmin 10 rzmax 100 ysmin -100 ysmax 100 zsmax -1000
+20000 bloc rxmin 2 rxmax 2 rymin 98 rymax 98 rzmin 10 rzmax 100 xsmin -100 xsmax 100 zsmax -1000
+20000 loop_end
+0 index_couleurs + 1
+0 loop_end

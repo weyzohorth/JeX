@@ -1,0 +1,14 @@
+0 map_dimensions 400 200 100
+0 vitesse + 20
+0 couleur_bloc 200 200 200
+0 couleur_fog 0 0 0
+0 couleur_map 0 0 0
+0 couleur_line 255 255 255
+0 no_grav 0
+0 grav 0.9
+0 grav_dir down
+0 loop_start oo
+0 loop_start 2
+0 bloc rxmin 10 rxmax 40 rymin 15 rymax 98 rzmin 10 rzmax 40
+0 loop_end
+10000 loop_end

@@ -1,0 +1,15 @@
+0 cylindre 1
+0 mode_bloc 0
+0 map_dimensions 500 100 100
+0 couleurs_map 155 0 0 | 100 50 0 | 155 155 0 | 50 155 0 | 0 155 0 | 0 155 50 | 0 155 155 | 0 50 155 | 0 0 155
+0 couleurs_fog 255 0 0 | 200 150 0 | 255 255 0 | 150 255 0 | 0 255 0 | 0 255 150 | 0 255 255 | 0 150 255 | 0 0 255
+0 couleurs_line 255 255 255
+0 couleurs_bloc 0 0 0
+0 loop_start oo
+	0 loop_start 10
+		10000 bloc xsmin -5 xsmax 5 ysmin -5 ysmax 5 zsmin -5 zsmax 5 rxmin 20 rxmax 20 rymin 20 rymax 20 rzmin 20 rzmax 20
+	10000 loop_end
+	0 index_couleurs + 1
+0 loop_end
+	
+

@@ -1,0 +1,13 @@
+0 vitesse + 30
+0 loop_start oo
+	0 loop_start 4
+		0 loop_start 4
+			10000 bloc xsmin -100 xsmax 100 ysmin -100 ysmax 100
+		10000 loop_end
+		0 index_couleur_bloc + 1
+		0 index_couleur_fog + 1
+	0 loop_end
+	0 index_couleur_map + 1
+	0 index_couleur_line + 1
+	0 vie + 1
+0 loop_end
